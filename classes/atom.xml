@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Countway Data Classes</title>
+	<link href="http://Countway-Library.github.io/classes/atom.xml" rel="self"/>
+	<link href="http://Countway-Library.github.io/classes"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://Countway-Library.github.io/classes</id>
+	<author>
+		<name>Countway Library</name>
+		<email>julie_goldman@harvard.edu</email>
+	</author>
+
+	{% for class in site.classes %}
+		<entry>
+			<title>{{ class.title }}</title>
+			<link href="http://Countway-Library.github.io{{ class.url }}"/>
+			<updated>{{ class.date | date_to_xmlschema }}</updated>
+			<id>http://Countway-Library.github.io{{ class.id }}</id>
+			<content type="html">{{ class.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
