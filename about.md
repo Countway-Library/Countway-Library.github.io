@@ -3,6 +3,7 @@ layout: default
 title: About
 ---
 <div class="blurb">
+	<h1>Countway Library Data Services</h1>
 	<h2>What is Research Data Management?</h2>
 	<p>text</p>
   	<h2>Why is Research Data Management Important?</h2>
