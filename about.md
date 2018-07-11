@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: Countway Library, Research Data Services
+title: About
 ---
 <div class="blurb">
 	<h4>What is Research Data Management?</h4>
