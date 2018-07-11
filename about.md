@@ -3,12 +3,10 @@ layout: default
 title: About
 ---
 <div class="blurb">
-	<h4>What is Research Data Management?</h4>
+	<h2>What is Research Data Management?</h2>
 	<p>text</p>
-  <br>
-  <h4>Why is Research Data Management Important?</h4>
-  <p>text</p>
-  <br>
-  <h4>What are Countway's Data Services?</h4>
-  <p>text</p>
+  	<h2>Why is Research Data Management Important?</h2>
+  	<p>text</p>
+  	<h2>What are Countway's Data Services?</h2>
+  	<p>text</p>
 </div><!-- /.blurb -->
