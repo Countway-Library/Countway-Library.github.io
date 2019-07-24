@@ -1,7 +1,7 @@
 <entry>
-			<title>Metadata</title>
-			<link href="https://libcal.countway.harvard.edu/calendar/countway/metadata"/>
-			<updated>2019-08-08</updated>
-			<id>http://Countway-Library.github.io{{ class.id }}</id>
-			<content type="html">Good metadata enables you to understand, use, and share your own data now and in the future, and helps other researchers discover, access, use, repurpose, and cite your data in the long-term. It also facilitates long-term archival preservation of the data. Learn what metadata is, how it applies to your research, and who to contact for assistance.</content>
-		</entry>
+	<title>{{ Metadata }}</title>
+	<link href="https://libcal.countway.harvard.edu/calendar/countway/metadata{{ class.url }}"/>
+	<updated>{{ 2019-08-08 | date_to_xmlschema }}</updated>
+	<id>http://Countway-Library.github.io{{ class.id }}</id>
+	<content type="html">{{ class.content | xml_escape }}</content>
+</entry>
