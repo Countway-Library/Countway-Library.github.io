@@ -14,13 +14,13 @@ layout: feed
 		<email>julie_goldman@harvard.edu</email>
 	</author>
 
-	{% for class in site.classes %}
+	{% for post in site.events %}
 		<entry>
-			<title>{{ class.title }}</title>
-			<link href="http://Countway-Library.github.io{{ class.url }}"/>
-			<updated>{{ class.date | date_to_xmlschema }}</updated>
-			<id>http://Countway-Library.github.io{{ class.id }}</id>
-			<content type="html">{{ class.content | xml_escape }}</content>
+			<title>{{ post.title }}</title>
+			<link href="http://Countway-Library.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://Countway-Library.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
 
