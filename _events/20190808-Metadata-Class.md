@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: post
 title: "Metadata Class"
 date: 2019-08-08
 ---
